@@ -4,3 +4,10 @@
 @theme {
   /* Your custom design tokens go here */
 }
+:root {
+  --bg-default: #f7fafc; /* change to your default */
+}
+
+html, body {
+  background-color: var(--bg-default);
+}
